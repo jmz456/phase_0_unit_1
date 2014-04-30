@@ -1,0 +1,59 @@
+.container{
+	margin: 0 auto;
+	width: 900px;
+}
+
+
+#head{
+   fontsize: 150%;
+   text-align: center;
+   color: #0066CC;
+   background-color: black;
+    }
+    
+.navi{
+   float: left;
+   width: 150px;
+   height: 325px;
+   text-align: center;
+   background-color: black;
+   color: #0066CC;
+    }
+
+.list1{
+	text-align: left;
+}
+
+.list2{
+	text-align: left;
+}
+
+.picture{
+	float: center;
+	padding-left: 200px;
+	padding-right: 200px;
+  }
+
+.boxers{
+	float: right;
+  width: 200px;
+  height: 325px;
+  text-align: center;
+  background-color: black;
+  color: #0066CC;
+
+}
+
+.intro{
+	text-align: center;
+
+}
+
+#footer{
+	padding-left: 250px;
+	padding-right: 250px;
+	bottom: 0px;
+	position: fixed;
+	text-align: center;
+
+}

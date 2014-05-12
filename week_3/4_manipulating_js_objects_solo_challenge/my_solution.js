@@ -14,53 +14,72 @@ var terah = {
 }
 /* Pseudocode Section - write pseudocode for each challenge below.
 1. Define a variable adam and use object literal notation to assign this variable 
-   the value of a JavaScript Object object with no properties.
-
+      the value of a JavaScript Object object with no properties.
+      set variable to adam equal to empty property
 2. Give adam a name property with the value "Adam".
-
+      name property Adam
 3. Add a spouse property to terah and assign it the value of adam.
-
+      terah's spouse property equals adam
 4. Change the value of the terah weight property to 125.
-
+      terah's weight equals 125
 5. Remove the eyeColor property from terah.
-
+      delete terah's eye color
 6. Add a spouse property to adam and assign it the value of terah.
-
+      adam's spouse property equals terah
 7. Add a children property to terah and and use object literal notation to assign 
    this variable the value of a JavaScript Object object with no properties
-
+      terah's children property set to empty
 8. Add a carson property to the value of the terah children property and assign it 
   the value of an object with the property name with a value of "Carson".
-
+      terah's children property carson equals name "Carson"
 9. Add a carter property to the value of the terah children property and assign it 
    the value of an object with the property name with a value of "Carter".
-
+      terah's children property carter equals name "Carter"
 10. Add a colton property to the value of the terah children property and assign it 
     the value of an object with the property name with a value of "Colton".
-
+      terah's children property colton equals name "Colton"
 11. Add a children property to adam and assign it the value of terah children.
-
-
-*/
+      adams children propert equals terah's children property*/
 
 // __________________________________________
 // Write your code below.
-
-
-
-
-
-
-
+var adam = {
+  name: "Adam",
+}
+terah.spouse = adam;
+terah.weight = 125;
+delete terah.eyeColor;
+adam.spouse = terah;
+terah.children = []
+terah.children.carson = {name:"Carson"};
+terah.children.carter = {name: "Carter"};
+terah.children.colton = {name: "Colton"};
+adam.children = terah.children;
 
 // __________________________________________
-// Reflection: Use the reflection guidelines
+/* Reflection: Use the reflection guidelines
 // 
-// 
-// 
-// 
-// 
-// 
+//What parts of your strategy worked?  What problemds did you face?
+    /Syntax was the biggest problem of this section.  Understanding the properties of a particular 
+    /variable posed confusion because of a different syntax.
+//What questions did you have while coding?  What resources did you find to help you answer them?
+    I had a ton of questions while coding.  A lot of code was trial and error.  Codecademy and the JavaScript intro
+    from Dev Bootcamp helped put things together.
+//What consepts are you having trouble with, or did you just figure something out?  If so, what?
+    Understanding how JavaScript objects work together is the most confusing concept.  Also how to utilize a function
+    and understand the code block that follows.
+//Did you learn any new skills or tricks?
+    I understand how object litterals can be manipulated by adding or removing properties.  I wouldn't call this a particular skill
+    but it was something I had a hard time grasping before completing some of the codecademey challenges.
+//How confidient are you with each of the Learning Competencies?
+    I'm fairly confident that I can complete the Learning Competencies, but I need to refer to sources.  I can't do it from memory... yet.
+//Which parts of the challenge did you enjoy?
+    I have to honestly say, I didn't really enjoy this challenge.  Usually I like working with code I understand, but this has
+    been quite frustrating to everything else we've done.  I only liked solving things through the TDD, but that's about all.
+//Which parts of the challenge did you find tedious?
+    As I look at the code now, I understand its simplicity.  However, from the pseudocode it's not as easy to workout.
+
+*/ 
 
 
 // __________________________________________
